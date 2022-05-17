@@ -1,0 +1,48 @@
+.Nan {
+width: 1600px;
+height: 1000px;
+text-align: center;
+}
+body {
+background-image: url('ONG2.jpg');
+margin:0;
+}
+ul {
+  list-style: none;
+  border-right: 1px solid white;
+  list-style-type: none;
+  margin: 0px auto;
+  background: rgba(255,255,0,0.1);
+  background-size: cover;
+  font-family: georgia;
+}
+li {
+  display: inline;
+  font-weight: bold;
+  padding: 5em 18em;
+  color: #400;
+  display: inline;
+  text-decoration: none;
+}
+#flow{
+	margin: 150px auto;
+	font-family: georgia;
+	text-align: center;
+}
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+#footer {
+      background-color: #292C44;
+      display: inline-block;
+      color: white;
+	  position:relative; bottom: 0; left:0; width: 100%;
+	  margin-top: -50px;
+}
+#fr {
+text-align: right;
+}

@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Salva vidas, dona</title>
+<link rel="stylesheet" type="text/css" href="Estilo.css" />
+</head>
+<body>
+<nav>
+<ul>
+  <li><a href="ONGPrincipal.html">Donaciones</a></li>
+  <li><a href="Quienes.html">¿Quiénes somos?</a></li>
+</ul>
+</nav>
+<div id="flow">
+<h3>Tu ayuda puede salvar una vida,con cada euro que donas mantienes alimentada a una persona</br>
+    con la misma cantidad de alimentos que consumes a diario, con cada euro un niño en necesidad</br>
+	recibirá vacunas contra enfermedades que fueron erradicadas en paises desarrollados. Tu ayuda</br>
+	es más que necesaria ahora, con tu donación, ayudas a personas en paises pobres y areas rurales.<br></h3>
+</div>
+<form action="Fors.php" method="POST">
+  DNI <input type="text" name="DNI"><br>
+  Nombre <input type="text" name="Nombre"><br>
+  Apellidos <input type="text" name="Apellidos"><br>
+  Correo electrónico <input type="email" name="Email"><br>
+  Tarjeta de credito <input type="number" name="numero"><br>
+  Cantidad a donar <input type="number" name="donacion">
+  <h5>Las donaciones deben ser menos de 20 euros</h5><br>
+  <input type="radio" name="metodo">
+  <label for="male">Paypal</label>
+  <input type="radio" name="metodo">
+  <label for="female">VISA</label><br>
+  <br>
+  <input type="submit" value="Donar">
+</form>
+<br>
+<br>
+<br>
+<br>
+<footer id="footer">
+        <h5 id="fr"><p>Todos los derechos reservados</p></h5>
+		<br>
+		<h5 id="fr"><p>Copyright2022</p></h5>
+    </footer>
+</body>
+</html>
